@@ -33,12 +33,12 @@ end
 
 def matrix_lookup(matrix, row, column)
   ENNET_HOUSE = [
-       #0               1                2           3                4    
+       #0               1                2           3                4
     ["Don Gately", "Joelle van Dyne", "Pat M.", "Kate Gompert", "Bruce Green"]          #
-  0 
+  0
   ]
   ENFIELD_TENNIS_ACADEMY = [
-        #0               1              2               3                     4       
+        #0               1              2               3                     4
     ["Hal Incandenza", "Lyle", "Gerhard Schtitt", "Mario Incandenza", "Micheal Pemulis"]     #
   0
   ]
