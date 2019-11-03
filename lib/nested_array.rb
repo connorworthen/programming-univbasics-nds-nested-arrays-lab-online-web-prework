@@ -26,7 +26,7 @@ def assembled_matrix
 end
 
 def array_literal_matrix
-  sorted = change.sort 
+  sorted = change.sort
   sorted = change.sort { |a, b| a <=> b}
   sorted
 end
