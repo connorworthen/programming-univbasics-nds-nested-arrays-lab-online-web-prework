@@ -17,7 +17,12 @@ ENFIELD_TENNIS_ACADEMY = [
 ]
 
 def assembled_matrix
-  expect(assembled_matrix).to eq([ENNET_HOUSE, ENFIELD_TENNIS_ACADEMY])
+  ENNET_HOUSE = [
+    ["Don Gately", "Joelle van Dyne", "Pat M.", "Kate Gompert", "Bruce Green"]
+  ]
+  ENFIELD_TENNIS_ACADEMY = [
+    ["Hal Incandenza", "Lyle", "Gerhard Schtitt", "Mario Incandenza", "Micheal Pemulis"]
+  ]
 end
 
 def array_literal_matrix
